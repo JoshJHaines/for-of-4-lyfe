@@ -51,19 +51,19 @@ function addNoises(arr) {
 			name === "Maisie" ||
 			name === "Rolph"
 		) {
-			animalNoise.push('${name} says "Woof!"');
+			animalNoise.push(name + " says \"Woof!\"");
 		} 
     if (
       name === "Garfield" ||
       name === "Heathcliff"
       ) {
-			animalNoise.push('${name} says "Meow!"');
+			animalNoise.push(name + ' says "Meow!"');
 		} 
     else if (
       name === "Sharp Tooth" || 
       name === "Barnie"
       ) {
-			animalNoise.push('${name} says "ROWR."');
+			animalNoise.push(name + ' says "ROWR."');
 		}
 	}
 	return animalNoise;
