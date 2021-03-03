@@ -20,6 +20,16 @@ function countSpaces(str){
   return spaces
 }
 
+function countTrues(boos){
+  let trues = 0
+  for (const boo of boos){
+    if (boo === true){
+      trues += 1
+    }
+  }
+  return trues
+}
+
 
 
 
