@@ -12,11 +12,12 @@ function addAll(arr){
 
 function countSpaces(str){
   let spaces = 0
-  for (const space of string){
+  for (const space of str){
     if (space === " "){
       spaces += 1
     }
   }
+  return spaces
 }
 
 
