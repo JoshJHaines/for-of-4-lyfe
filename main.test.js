@@ -30,10 +30,26 @@ function countTrues(boos) {
 	return trues;
 }
 
+
+// solution with team
 function makeFriendly(para) {
 	let frend = para.split(".").join("!");
 	return frend;
 }
+
+
+//solution from class
+// function makeFriendly(str){
+//   let friendlyStr = '';
+//   for (const char of str){
+//     if (char === '.'){
+//       friendlyStr += "!"
+//     } else {
+//       friendlyStr += char
+//     }
+//   }
+//   return friendlyStr
+// }
 
 function cubeAll(arr) {
 	let cubed = [];
