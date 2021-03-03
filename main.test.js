@@ -43,30 +43,30 @@ function cubeAll(arr) {
 	return cubed;
 }
 
-function addNoises(array) {
-	let array3 = [];
-	for (i = 0; i < array.length; i++) {
+function addNoises(arr) {
+	let animalNoise = [];
+	for (const name of arr) {
 		if (
-			array[i] === "Fido" ||
-			array[i] === "Maisie" ||
-			array[i] === "Rolph"
+			name === "Fido" ||
+			name === "Maisie" ||
+			name === "Rolph"
 		) {
-			array3.push('${array[i]} says "Woof!"');
+			animalNoise.push('${name} says "Woof!"');
 		} 
     if (
-      array[i] === "Garfield" ||
-      array[i] === "Heathcliff"
+      name === "Garfield" ||
+      name === "Heathcliff"
       ) {
-			array3.push('${array[i]} says "Meow!"');
+			animalNoise.push('${name} says "Meow!"');
 		} 
     else if (
-      array[i] === "Sharp Tooth" || 
-      array[i] === "Barnie"
+      name === "Sharp Tooth" || 
+      name === "Barnie"
       ) {
-			array3.push('${array[i]} says "ROWR."');
+			animalNoise.push('${name} says "ROWR."');
 		}
 	}
-	return array3;
+	return animalNoise;
 }
 
 function womenOnly(arr) {
