@@ -43,6 +43,16 @@ function cubeAll(arr){
   return cubed
 }
 
+function womenOnly(arr){
+  let womens = []
+  for (const f of arr){
+    if (f[f.length-1] === "F"){
+      womens.push(f)
+    }
+  }
+  return womens
+}
+
 function integersOnly(arr){
   let intArr = []
   for (const numbuh of arr){
