@@ -44,8 +44,6 @@ function cubeAll(arr){
 }
 
 function addNoises(arr){
-  let amnils = []
-
 }
 
 function womenOnly(arr){
