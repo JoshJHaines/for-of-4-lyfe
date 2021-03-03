@@ -31,14 +31,15 @@ function countTrues(boos){
 }
 
 function makeFriendly(para){
-  // const para1 = para
-  // let para2 = para1
-  // for (let period of para2){
-  //   if (period === "."){
-  //     period = "!"
-  //   }
-  // }
-  // return para2
+  let para2 = []
+  for (const char of para){
+    if (char === "."){
+      para2.push("!")
+    }else{
+      para2.push(char)
+    }
+  }
+  return para2
 }
 
 function cubeAll(arr){
@@ -47,6 +48,16 @@ function cubeAll(arr){
     cubed.push(Math.pow(i, 3))
   }
   return cubed
+}
+
+function integersOnly(arr){
+  let intArr = []
+  for (const numbuh of arr){
+    if (Number.isInteger(numbuh)){
+      intArr.push(numbuh)
+    }
+  }
+  return intArr
 }
 
 
