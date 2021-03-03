@@ -106,9 +106,6 @@ describe('addAll', () => {
     expect(addAll(nums1)).toBe(1007);
     expect(addAll(nums2)).toBe(-854);
   })
-  it(`isn't reassignable`, () => {
-    expect(() => addAll = 500).toThrow();
-  })
 })
 describe(`countSpaces`, () => {
   it(`counts all the spaces in a multi-space string`, () => {
