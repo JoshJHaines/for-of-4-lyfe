@@ -2,8 +2,22 @@
  * YOUR CODE HERE *
  ******************/
 
+function addAll(arr){
+  let sum = 0
+  for (const num of arr){
+    sum += num
+  }
+  return sum
+}
 
-
+function countSpaces(str){
+  let spaces = 0
+  for (const space of string){
+    if (space === " "){
+      spaces += 1
+    }
+  }
+}
 
 
 
