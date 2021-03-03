@@ -30,7 +30,24 @@ function countTrues(boos){
   return trues
 }
 
+function makeFriendly(para){
+  // const para1 = para
+  // let para2 = para1
+  // for (let period of para2){
+  //   if (period === "."){
+  //     period = "!"
+  //   }
+  // }
+  // return para2
+}
 
+function cubeAll(arr){
+  let cubed = [];
+  for (const i of arr){
+    cubed.push(Math.pow(i, 3))
+  }
+  return cubed
+}
 
 
 /*********************************
