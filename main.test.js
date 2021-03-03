@@ -31,15 +31,8 @@ function countTrues(boos){
 }
 
 function makeFriendly(para){
-  let para2 = []
-  for (const char of para){
-    if (char === "."){
-      para2.push("!")
-    }else{
-      para2.push(char)
-    }
-  }
-  return para2
+  let frend = para.split(".").join("!")
+  return frend
 }
 
 function cubeAll(arr){
